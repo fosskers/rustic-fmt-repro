@@ -1,0 +1,8 @@
+#+TITLE: Reproducing the Rustic fmt bug
+
+1. Open =lib.rs=.
+2. Make some trivial change and save the buffer.
+3. Notice that auto-formatting works.
+4. Uncomment the ~bar~ function.
+5. Save, and notice a popup that complains incorrectly about having the wrong
+   version of Rust configured (it's unhappy about the ~async~ keyword).
